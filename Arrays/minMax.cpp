@@ -21,7 +21,11 @@ class Pair{
 //getMinMax function that return an object of Pair class containing min ana Max numbers...
 Pair getMinMax(int arr[], int size){
 	Pair minMax;
-	if(size==0){
+	if(size==1){
+		minMax.max = arr[0];
+		minMax.min = arr[0];
+		return minMax;
+	}else if(size==0){
 		minMax.max = 0;
 		minMax.min = 0;
 		return minMax;
