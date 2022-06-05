@@ -35,7 +35,7 @@ Pair getMinMax(int arr[], int size){
 		minMax.min = arr[0];
 	}
 	
-	for(int counter = 0; counter < size; counter++){
+	for(int counter = 2; counter < size; counter++){
 		if(arr[counter]>minMax.max){
 			minMax.max = arr[counter];
 		}
