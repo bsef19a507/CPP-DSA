@@ -1,3 +1,7 @@
+/*******************************************
+Maximum and minimum of an Array
+*******************************************/
+
 #include <iostream>
 
 using namespace std;
