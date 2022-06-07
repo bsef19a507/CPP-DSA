@@ -17,7 +17,7 @@ class Pair{
 	}	
 };
 
-//
+// getMinMax function code...
 struct Pair getMinMax(int arr[], int low,
                                  int high)
 {
