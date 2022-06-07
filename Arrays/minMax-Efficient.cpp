@@ -78,7 +78,12 @@ int main()
     
     cout<<"\nArray is :  ";
     for(int i=0;i< 6;i++){
-    	cout<<arr[i]<<",";
+    
+    	if(i==5){
+    		cout<<arr[i];
+		}else{
+				cout<<arr[i]<<",";
+		}
 	}
                               
    minmax.display();
