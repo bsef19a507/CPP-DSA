@@ -76,6 +76,6 @@ int main()
      
     struct Pair minmax = getMinMax(arr, 0,arr_size - 1);
                               
-   
+   minmax.display();
     return 0;
 }
