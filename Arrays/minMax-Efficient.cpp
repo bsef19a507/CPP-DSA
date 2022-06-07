@@ -82,9 +82,10 @@ int main()
     	if(i==5){
     		cout<<arr[i];
 		}else{
-				cout<<arr[i]<<",";
+			cout<<arr[i]<<",";
 		}
 	}
+	cout<<endl;
                               
    minmax.display();
     return 0;
