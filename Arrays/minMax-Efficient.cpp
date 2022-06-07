@@ -75,6 +75,8 @@ int main()
     int arr_size = 6;
      
     struct Pair minmax = getMinMax(arr, 0,arr_size - 1);
+    
+    cout<<"\nArray is : "<<endl;
                               
    minmax.display();
     return 0;
