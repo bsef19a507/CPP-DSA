@@ -12,7 +12,7 @@ class Pair{
 		int min;
 		int max;
 	void display(){
-		cout<<"\nMax in Array is : "<<min<<endl;
+		cout<<"\nMaximum Number in Array is : "<<min<<endl;
 		cout<<"Min in Array is : "<<max<<endl;
 	}	
 };
