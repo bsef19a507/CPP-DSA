@@ -18,8 +18,7 @@ class Pair{
 };
 
 // getMinMax function code...
-struct Pair getMinMax(int arr[], int low,
-                                 int high)
+struct Pair getMinMax(int arr[], int low,int high)
 {
     struct Pair minmax, mml, mmr;    
     int mid;
@@ -75,13 +74,8 @@ int main()
                   1, 330, 3000 };
     int arr_size = 6;
      
-    struct Pair minmax = getMinMax(arr, 0,
-                             arr_size - 1);
+    struct Pair minmax = getMinMax(arr, 0,arr_size - 1);
                               
-    cout << "Minimum element is "
-         << minmax.min << endl;
-    cout << "Maximum element is "
-         << minmax.max;
-          
+   
     return 0;
 }
