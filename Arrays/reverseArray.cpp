@@ -9,6 +9,12 @@ using namespace std;
 // ReverseArray function code...
 void reverseArray(int arr[], int start,int end)
 {
+     int temp;
+     temp = arr[start];
+     arr[start] = arr[end];
+     arr[end] = temp;
+     start++;
+     end--;
      
   
 }
@@ -31,6 +37,6 @@ int main()
 	}
 	cout<<endl;
                               
-    reverseArray();
+    reverseArray(arr, 0,5);
     return 0;
 }
