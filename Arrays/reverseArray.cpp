@@ -7,7 +7,7 @@ Reverse Array
 using namespace std;
 
 // ReverseArray function code...
-void reverseArray(int arr[], int low,int high)
+void reverseArray(int arr[], int start,int end)
 {
      
   
@@ -31,6 +31,6 @@ int main()
 	}
 	cout<<endl;
                               
-   minmax.display();
+    reverseArray();
     return 0;
 }
