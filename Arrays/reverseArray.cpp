@@ -15,7 +15,7 @@ void reverseArray(int arr[], int start,int end)
      arr[end] = temp;
      start++;
      end--;
-     
+     reverseArray(int arr[], int start,int end);
   
 }
  
