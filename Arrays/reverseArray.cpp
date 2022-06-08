@@ -6,17 +6,6 @@ Maximum and minimum of an Array
 
 using namespace std;
 
-// class Pair to get min and max number to return from functin...
-class Pair{
-	public:
-		int min;
-		int max;
-	void display(){
-		cout<<"\nMaximum Number in Array is : "<<min<<endl;
-		cout<<"Mininum Number in Array is : "<<max<<endl;
-	}	
-};
-
 // getMinMax function code...
 struct Pair getMinMax(int arr[], int low,int high)
 {
@@ -72,8 +61,7 @@ int main()
 {
     int arr[] = {10, 11, 12, 13, 14, 15};
     int arr_size = 6;
-     
-    struct Pair minmax = getMinMax(arr, 0,arr_size - 1);
+    
     
     cout<<"\nArray is :  ";
     for(int i=0;i< 6;i++){
