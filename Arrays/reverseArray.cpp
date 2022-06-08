@@ -39,7 +39,7 @@ int main()
 	cout<<endl;                         
     reverseArray(arr, 0,5);
     
-    cout<<"\nReversed Array is :  ";
+    cout<<"\nReversed :  ";
     for(int i=0;i< 6;i++){
     
     	if(i==5){
