@@ -10,12 +10,13 @@ using namespace std;
 void reverseArray(int arr[], int start,int end)
 {
      int temp;
-     temp = arr[start];
-     arr[start] = arr[end];
-     arr[end] = temp;
-     start++;
-     end--;
-     reverseArray(int arr[], int start,int end);
+     for (int i=start;i<=end;i++){
+     	 temp = arr[start];
+	     arr[start] = arr[end];
+	     arr[end] = temp;
+	     start++;
+	     end--;
+	 }
   
 }
  
@@ -35,8 +36,18 @@ int main()
 			cout<<arr[i]<<",";
 		}
 	}
-	cout<<endl;
-                              
+	cout<<endl;                         
     reverseArray(arr, 0,5);
+    
+    cout<<"\nReversed Array is :  ";
+    for(int i=0;i< 6;i++){
+    
+    	if(i==5){
+    		cout<<arr[i];
+		}else{
+			cout<<arr[i]<<",";
+		}
+	}
+	cout<<endl;                  
     return 0;
 }
