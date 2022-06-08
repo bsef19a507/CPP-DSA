@@ -70,8 +70,7 @@ struct Pair getMinMax(int arr[], int low,int high)
 // Driver code
 int main()
 {
-    int arr[] = { 1000, 11, 445,
-                  1, 330, 3000 };
+    int arr[] = {10, 11, 12, 13, 14, 15};
     int arr_size = 6;
      
     struct Pair minmax = getMinMax(arr, 0,arr_size - 1);
