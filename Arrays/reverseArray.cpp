@@ -1,16 +1,15 @@
 /*******************************************
-Maximum and minimum of an Array
+Reverse Array 
 *******************************************/
 
 #include <iostream>
 
 using namespace std;
 
-// getMinMax function code...
-struct Pair getMinMax(int arr[], int low,int high)
+// ReverseArray function code...
+void reverseArray(int arr[], int low,int high)
 {
-    struct Pair minmax, mml, mmr;    
-    int mid;
+    
      
     // If there is only one element
     if (low == high)
